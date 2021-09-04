@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button-send {
+  border: 1px solid #E0E0E0;
+  border-radius: 5px;
+  height: 40px;
+  margin-left: 3%;
+  width: 8%;
+  background: #6d7885;
+  color: #FFF;
+}
+
+.button-send:hover {
+  opacity: 0.9;
+}
+
+.email-input {
+  height: 40px;
+  border: 1px solid #E0E0E0;
+  border-radius: 5px;
+  width: 30%;
+}
+
+.email-input::placeholder {
+ color: rgb(99, 99, 99);
+
+}
+
+@media screen and (max-width: 700px) {
+  .email-input {
+    
+    width: 50%;
+    
+  }
+  .button-send {width: 18%;}
+}
